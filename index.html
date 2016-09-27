@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+ <h1><center>Change Calculator!</center></h1>
+  <title>Change Calculator</title><p class="text-center"><u>Let us do the math for you!</u></p>
+<center><img src="calc.jpg" alt="calculator" class="img-circle" width=80 height=80></center>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+ <!-- Form for user input --> 
+  <center><form class="form-inline">
+  <div class="form-group">
+    <label for="due"><u>How much is due for the sale?</u></label>
+    <input type="text" class="form-control" id="firstInput" placeholder="amount due">
+  </div>
+  <div class="form-group">
+    <label for="recieved"><u>How much has the customer given you?</u></label>
+    <input type="text" class="form-control" id="secondInput" placeholder="amount recieved">
+  </div></center>
+  </form>
+<div><center>
+<!-- The Money! -->
+<label><b>Dollars:</b></label>
+  <p type="text" id="dollar" class=""/></p><br/>
+<label>Quarters:</label>
+  <p type="text" id="quarters" class="disabled" disabled="disabled"/></p><br/>
+<label>Dimes:</label>
+  <p type="text" id="dimes" class="disabled" disabled="disabled"/></p><br/>
+<label>Nickels:</label>
+  <p type="text" id="nickels" class="disabled" disabled="disabled"/></p><br/>
+<label>Pennies:</label>
+  <p type="text" id="pennies" class="disabled" disabled="disabled"/></p><br/>
+</div></center>
+<center><IMG SRC="coinz.jpg" ALT="potofgold"></IMG></center>
+<div><center><button type="button" class="btn btn-primary btn-lg id=button">Show Me the Money!</button></center></div>
+		<script src="index.js"></script>
+	</div>
+	</body>
+</html>
